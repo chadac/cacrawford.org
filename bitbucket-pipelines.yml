@@ -1,5 +1,5 @@
 ## From https://www.karelbemelmans.com/2016/10/deploying-a-hugo-website-to-amazon-s3-using-bitbucket-pipelines/
-image: karelbemelmans/pipelines-hugo
+image: cacrawford/pipelines-hugo:latest
 
 pipelines:
   default:

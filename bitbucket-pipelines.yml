@@ -5,6 +5,6 @@ pipelines:
   default:
     - step:
         script:
+          - git submodule update --init --recursive
           - hugo
-          - ls public
           - aws s3 sync --delete public s3://cacrawford.org

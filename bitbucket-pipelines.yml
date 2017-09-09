@@ -1,0 +1,10 @@
+## From https://www.karelbemelmans.com/2016/10/deploying-a-hugo-website-to-amazon-s3-using-bitbucket-pipelines/
+image: cacrawford/pipelines-hugo:latest
+
+pipelines:
+  default:
+    - step:
+        script:
+          - git submodule update --init --recursive
+          - hugo
+          - aws s3 sync --delete public s3://cacrawford.org

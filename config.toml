@@ -46,7 +46,7 @@ theme = "minimal"
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:chad@mail.cacrawford.org"
+    url = "mailto:chad@cacrawford.org"
     name = "envelope-o"
     weight = 1
 

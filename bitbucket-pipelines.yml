@@ -8,3 +8,6 @@ pipelines:
           - git submodule update --init --recursive
           - hugo
           - aws s3 sync --delete public s3://cacrawford.org
+          ## Reset cloudfront cache. Not efficient, but works well since my site is small.
+          - aws configure set preview.cloudfront true
+          - aws cloudfront create-invalidation --distribution-id=E385LYO8Q21RUO --paths '/*'

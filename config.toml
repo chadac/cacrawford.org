@@ -55,17 +55,12 @@ theme = "minimal"
     name = "github"
     weight = 2
 
-# [[menu.icon]]
-#     url = "https://twitter.com/username/"
-#     name = "twitter"
-#     weight = 3
+[[menu.icon]]
+    url = "https://bitbucket.org/chadac/"
+    name = "bitbucket"
+    weight = 3
 
 # [[menu.icon]]
-#     url = "https://www.linkedin.com/in/username/"
-#     name = "linkedin"
+#     url = "https://www.hackerrank.com/chadac"
+#     name = "hacker"
 #     weight = 4
-
-# [[menu.icon]]
-#     url = "https://www.stackoverflow.com/username/"
-#     name = "stack-overflow"
-#     weight = 5

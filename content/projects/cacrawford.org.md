@@ -20,6 +20,6 @@ Hugo and AWS CLI](https://github.com/chadac/docker-pipelines-hugo)
 builds the source using Hugo.  The S3 bucket is updated and the
 CloudFront caches are invalidated so that all changes are immediate.
 
-It's fairly cheap to run at <$.50 a month, and enables me to
+It's fairly cheap to run at about $0.75 a month, and enables me to
 customize the website much more than hosting with GitHub Pages would
 allow.

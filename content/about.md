@@ -4,11 +4,13 @@ description: " "
 date: 2017-09-05T12:42:22-05:00
 ---
 
-I'm currently a PhD student at the University of Tulsa, advised
-by [Dr. Sandip Sen](http://www.ens.utulsa.edu/~sandip/). My research
+I'm currently a PhD student at the University of Tulsa, advised by
+[Dr. Sandip Sen](http://www.ens.utulsa.edu/~sandip/). My research
 interests are in machine learning, probabilistic modeling, adaptive
-agents, and multi-agent simulation. I've also got like web design
-experience and stuff.
+agents, and multi-agent simulation. I've also got some web design
+experience with [Node.js](https://nodejs.org/en/) and
+[React](https://reactjs.org/). You can check out my
+[projects](/projects) to see the stuff I've done.
 
 That's enough about me. What I'd really like to talk about right now
 is my cats. One is a grey striped tabby cat named Thor (pictured

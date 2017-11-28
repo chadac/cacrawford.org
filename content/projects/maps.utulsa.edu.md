@@ -6,9 +6,10 @@ description: "An interactive map of the University of Tulsa."
 weight: 3
 year: 2016
 important: true
+tags: ["node", "react", "google maps api"]
 ---
 
-#### [Available at https://maps.utulsa.edu](https://maps.utulsa.edu)
+### [Available at https://maps.utulsa.edu](https://maps.utulsa.edu)
 
 An interactive map of the University of Tulsa developed as part of my
 Graduate Assistantship for the Department of Digital

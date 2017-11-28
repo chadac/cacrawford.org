@@ -1,12 +1,14 @@
 ---
-title: "TU Interactive Map"
+title: "maps.utulsa.edu: university of tulsa interactive map"
 subtitle: "[maps.utulsa.edu](https://maps.utulsa.edu)"
 date: 2017-09-05T16:53:41-05:00
 description: "An interactive map of the University of Tulsa."
-weight: 6
+weight: 3
+year: 2016
+important: true
 ---
 
-#### Available at [https://maps.utulsa.edu](https://maps.utulsa.edu)
+#### [Available at https://maps.utulsa.edu](https://maps.utulsa.edu)
 
 An interactive map of the University of Tulsa developed as part of my
 Graduate Assistantship for the Department of Digital

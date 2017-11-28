@@ -1,0 +1,12 @@
+.project-item {
+  margin: 3px 0;
+}
+
+.project-item.important {
+  background-color: #F1F1E9;
+  border: 1px solid #A9A9A9;
+}
+
+.project-item.important:hover {
+  background-color: #F5F5E9;
+}

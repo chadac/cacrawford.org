@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+
+<link rel="stylesheet" href="/css/projects.css">
+
+<main>
+
+  <h2>{{ .Title }}</h2>
+
+  {{ range (.Data.Pages.GroupByParam "year").Reverse }}
+    <h3>{{ .Key }}</h3>
+    {{ range sort .Pages ".Weight" }}
+      {{ partial "projects/list-item" . }}
+    {{ end }}
+  {{ end }}
+
+</main>
+
+{{ partial "footer" . }}

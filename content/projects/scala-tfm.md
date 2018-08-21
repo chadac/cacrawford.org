@@ -3,7 +3,7 @@ title: "scala-tfm: topic flow models for social media"
 date: 2017-08-05T16:49:49-05:00
 description: "Implementation of several probabilistic topic flow models to detect topics in social media conversations."
 weight: 1
-year: 2017
+year: 2018
 important: true
 tags: ["scala", "python3", "probabilistic modeling"]
 ---

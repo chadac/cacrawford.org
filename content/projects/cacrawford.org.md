@@ -5,7 +5,7 @@ year: 2017
 weight: 5
 description: "This website! Written in Hugo, deployed with Docker."
 draft: false
-tags: ["hugo", "docker", "continuous-integration"]
+tags: ["hugo", "docker", "continuous integration"]
 ---
 
 ### [Available on BitBucket](https://bitbucket.org/chadac/cacrawford.org)

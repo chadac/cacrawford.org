@@ -4,7 +4,7 @@
 
 <main>
 
-  <h2>{{ .Title }}</h2>
+  <h4><a href="/projects/">{{ .Title }}</a></h4>
 
   {{ range (.Data.Pages.GroupByParam "year").Reverse }}
     <h3>{{ .Key }}</h3>

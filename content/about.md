@@ -14,10 +14,13 @@ simulation. I've also got some web design experience with
 [React](https://reactjs.org/). You can check out my
 [projects](/projects) to see the stuff I've done.
 
-I love pretty much everything about computers and math, having dabbled
-with way too much at any point. I also love to think about project
-workflows and am trying to write a bit more on it -- see [our group
-for some articles that we've written in that
+My main interest right now is in the design of engineering-focused
+Machine Learning workflows. Many data scientists are often introduced
+to software engineering without learning many core concepts about
+writing reliable and easy-to-read code. There are many lessons in
+software engineering that can help scientists both write better code
+and build more reliable models. See [our group for some articles that
+we've written in this
 regard](https://medium.com/python-template-for-machine-learning-projects).
 
 That's enough about me. What I'd really like to talk about right now

@@ -4,13 +4,21 @@ description: " "
 date: 2017-09-05T12:42:22-05:00
 ---
 
-I'm currently a PhD student at the University of Tulsa, advised by
-[Dr. Sandip Sen](http://www.ens.utulsa.edu/~sandip/). My research
-interests are in machine learning, probabilistic modeling, adaptive
-agents, and multi-agent simulation. I've also got some web design
-experience with [Node.js](https://nodejs.org/en/) and
+Hi! I'm currently a Data Engineer at Amazon, previously a Data
+Scientist at ExxonMobil, and before that, a Master's
+student/researcher at the Univerity of Tulsa advised by [Dr. Sandip
+Sen](http://www.ens.utulsa.edu/~sandip/). My interests are in big data
+management, probabilistic modeling, and multi-agent
+simulation. I've also got some web design experience with
+[Node.js](https://nodejs.org/en/) and
 [React](https://reactjs.org/). You can check out my
 [projects](/projects) to see the stuff I've done.
+
+I love pretty much everything about computers and math, having dabbled
+with way too much at any point. I also love to think about project
+workflows and am trying to write a bit more on it -- see [our group
+for some articles that we've written in that
+regard](https://medium.com/python-template-for-machine-learning-projects).
 
 That's enough about me. What I'd really like to talk about right now
 is my cats. One is a grey striped tabby cat named Thor (pictured

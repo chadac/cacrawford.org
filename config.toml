@@ -1,4 +1,4 @@
-baseURL = "http://cacrawford.org/"
+baseURL = "https://cacrawford.org/"
 languageCode = "en-us"
 title = "Chad Crawford"
 theme = "minimal"

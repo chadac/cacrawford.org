@@ -1,32 +1,29 @@
 ---
 title: "About Me"
-description: " "
+description: ""
 date: 2017-09-05T12:42:22-05:00
 ---
 
-Hi! I'm currently a Data Engineer at Amazon, previously a Data
+Hi! I'm currently a Software Engineer at Amazon, previously a Data
 Scientist at ExxonMobil, and before that, a Master's
 student/researcher at the Univerity of Tulsa advised by [Dr. Sandip
-Sen](http://www.ens.utulsa.edu/~sandip/). My interests are in big data
-management, probabilistic modeling, and multi-agent
-simulation. I've also got some web design experience with
-[Node.js](https://nodejs.org/en/) and
-[React](https://reactjs.org/). You can check out my
-[projects](/projects) to see the stuff I've done.
+Sen](http://www.ens.utulsa.edu/~sandip/).
 
-My main interest right now is in the design of engineering-focused
-Machine Learning workflows. Many data scientists are often introduced
-to software engineering without learning many core concepts about
-writing reliable and easy-to-read code. There are many lessons in
-software engineering that can help scientists both write better code
-and build more reliable models. See [our group for some articles that
-we've written in this
-regard](https://medium.com/python-template-for-machine-learning-projects).
+I'm primarily interested in enhancing the developer experience, so
+you'll probably see a lot of my writings and packages focused on that
+stuff specifically. I use a lot of Python (and in fact, I help
+maintain the tools that build Python applications at Amazon and AWS)
+but I've worked in 10+ languages in the past and don't plan on
+sticking to just those.
 
 That's enough about me. What I'd really like to talk about right now
-is my cats. One is a grey striped tabby cat named Thor (pictured
-left), and the other is a small ragdoll cat named Robby (on the right,
-short for ``Dread Cat Roberts'').
+is my family's cats. I wrote this ages ago so technically these are my
+parent's cats but still I love them very much so they get to keep this
+section of the "About Me."
+
+One is a grey striped tabby cat named Thor
+(pictured left), and the other is a small ragdoll cat named Robby (on
+the right, short for ``Dread Cat Roberts'').
 
 <img src="/photos/thor-1.jpg" style="border: 2px solid #BBB; width:
 200px; display: inline; float: left; margin: 5px;"> Cats are probably

@@ -1,10 +1,13 @@
 ## From https://www.karelbemelmans.com/2016/10/deploying-a-hugo-website-to-amazon-s3-using-bitbucket-pipelines/
-image: nixos/nix
+image: atlassian/default-image:latest
 
 pipelines:
   default:
     - step:
         script:
+          - sh <(curl -L https://nixos.org/nix/install) --daemon
+          - mkdir -p /etc/nix
+          - echo "experimental-features = nix-command flakes" > /etc/nix/nix.conf
           - nix build .
           - nix shell nixpkgs#awscli
           - aws s3 sync --delete result/public s3://cacrawford.org

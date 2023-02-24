@@ -5,7 +5,7 @@ pipelines:
   default:
     - step:
         script:
-          - sh <(curl -L https://nixos.org/nix/install) --daemon
+          - sh <(curl --insecure -L https://nixos.org/nix/install) --daemon
           - mkdir -p /etc/nix
           - echo "experimental-features = nix-command flakes" > /etc/nix/nix.conf
           - nix build .

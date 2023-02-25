@@ -5,9 +5,9 @@ date: 2017-09-05T12:42:22-05:00
 ---
 
 Hi! I'm currently a Software Engineer at Amazon, previously a Data
-Scientist at ExxonMobil, and before that, a Master's
-student/researcher at the Univerity of Tulsa advised by [Dr. Sandip
-Sen](http://www.ens.utulsa.edu/~sandip/).
+Engineer, and before that a Data Scientist at ExxonMobil, and before
+that, a Master's student/researcher at the Univerity of Tulsa advised
+by [Dr. Sandip Sen](http://www.ens.utulsa.edu/~sandip/).
 
 I'm primarily interested in enhancing the developer experience, so
 you'll probably see a lot of my writings and packages focused on that
@@ -17,11 +17,7 @@ but I've worked in 10+ languages in the past and don't plan on
 sticking to just those.
 
 That's enough about me. What I'd really like to talk about right now
-is my family's cats. I wrote this ages ago so technically these are my
-parent's cats but still I love them very much so they get to keep this
-section of the "About Me."
-
-One is a grey striped tabby cat named Thor
+is my family's cats. One is a grey striped tabby cat named Thor
 (pictured left), and the other is a small ragdoll cat named Robby (on
 the right, short for ``Dread Cat Roberts'').
 

@@ -1,21 +1,19 @@
 ---
 title: "Redefining Ownership"
 date: 2023-02-24
-description: '
-Long-term ownership of software applications is a pain point for many,
-as it often requires maintaining software that is out-of-date and ultimately
-ends in either major refactors or migration of software to a state
-where features are not actively being created or added. This article discusses
-how extensive ownership can be counterproductive, and explores a new definition
-of ownership that both enables the software owners and their customers.
-'
 draft: false
 ---
 
-One of the most endemic problems I see in software engineering today
-is when engineers try to overreach on solving a problem. Consider the
-following mock problem, which I've commonly see happen in the Data
-Engineering space:
+Software developers are trained to solve problems. We want to write
+code that makes life as simple and easy as possible, so that our
+customers can do anything with a simple click of a button. However,
+when we try to solve too many problems at once, the resulting product
+solves none of them well. In this article, I'll discuss how our
+concept of *Ownership* underestimates the customer and undermines our
+products, and what we can do to be better owners.
+
+Consider the following mock problem, which I've commonly see happen in
+the Data Engineering space:
 
 > Simon, an analytist at company X, wrote a spreadsheet ages ago that
 > provides invaluable analysis, but they're tired of manually updating
@@ -216,6 +214,8 @@ we have contrasting solutions that we can use to motivate our own
 design and, by removing hard-coding our input queues and schemas, we
 can now easily add new data sources when necessary using the same
 format.
+
+* Related talk: ["Simple Made Easy" - Rich Hickey (2011)](https://www.youtube.com/watch?v=SxdOUGdseq4)
 
 ### 3. Reduce your code footprint
 

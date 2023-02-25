@@ -1,0 +1,22 @@
+name: "Deploy"
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build and deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cachix/install-nix-action@v19
+      - run: nix build
+      - run: nix flake check
+      - run: |
+          aws s3 sync --delete result/public s3://cacrawford.org
+          ## Reset cloudfront cache. Not efficient, but works well since my site is small.
+          aws configure set preview.cloudfront true
+          aws cloudfront create-invalidation --distribution-id=E385LYO8Q21RUO --paths '/*' 
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1

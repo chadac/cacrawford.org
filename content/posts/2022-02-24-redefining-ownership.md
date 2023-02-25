@@ -131,23 +131,23 @@ Enabling ownership has several key advantages over having ownership:
    the feature request queue entirely, but when we would deliver a
    feature slower than the customer needs it, the customer should be
    able to do the work themselves.
-1. **You need to write less code.** While we are talking about a more
-   nuanced and complex planning process, the result should yield less
-   code for you to write in the end. Planning effectively becomes more
-   agile, as leaders that enable ownership look for simple and small
+1. **We write less code.** While we are talking about a more nuanced
+   and complex planning process, the result should yield less code for
+   you to write in the end. Planning effectively becomes more agile,
+   as leaders that enable ownership look for simple and small
    solutions that can immediately deliver customer value and leave
    room for additional planning in the future.
-1. **Writing new code becomes simpler.** Enabling ownership for your
-   customer is ultimately also enabling ownership for your own
-   team. Now when Simon's data pipeline is complete but he wants a
-   solution for visualizing the data easily, your team can then focus
-   on mocking up a dashboard. And if Simon is dissatisfied with the
-   dashboard, you're still enabled to pivot to something like [Apache
+1. **Adding code is simpler.** Enabling ownership for your customer is
+   ultimately also enabling ownership for your own team. Now when
+   Simon's data pipeline is complete but he wants a solution for
+   visualizing the data easily, your team can then focus on mocking up
+   a dashboard. And if Simon is dissatisfied with the dashboard,
+   you're still enabled to pivot to something like [Apache
    Superset](https://superset.apache.org/).
 
-## How can a leader become effective at enabling owners?
+## How can we effectively enable ownership?
 
-### 1. Volatility-based decomposition
+### 1. Minimize volatility
 
 Juval Löwy in his book [Software System
 Decomposition](https://www.informit.com/articles/article.aspx?p=2995357)
@@ -165,29 +165,32 @@ considering the scope of future hypothetical changes can be a great
 way to simplify the process of maintaining and upgrading software in
 the future.
 
-### 2. Plan for code to be open sourced
+### 2. Build for open source
 
-This doesn't mean that you necessarily open source all of your work,
-but when planning a new project, it helps to think about what unique
-contributions you are making and how those contributions could be
-shared. I strongly recommend this for two reasons:
+When building new applications, one of the key questions that
+developers should always ask is: "What parts of this project could be
+open sourced?"
 
-1. **It helps you decouple your current use case from your business
-   logic.** Open sourcing means generalizing your functionality, which
-   means separating your business-specific logic from logic that could
-   be generalized and reused in future applications.
-2. **You may realize you don't *need* to write custom code.** One of
-   the first things to do after decomposing your problem is to see if
-   there are any existing open source solutions that already solve
-   what you are trying to do. If something exists, then perhaps you
-   can use their solution instead. This saves dev time and allows your
-   team to focus on the unique and new problems rather than
-   reinventing the wheel.
-3. **Even if your code isn't open sourced, you can reuse what you've
-   written.** I find that I'm often reusing libraries I've written in
-   the past more often that recreating those libraries; in fact,
-   oftentimes reuse motivates incremental improvements that ultimately
-   lead to incredibly clean osftware development processes.
+This doesn't mean that you open source all (or even any) of your work.
+However, an open source mindset helps decompose your project into
+simple, generalized components that can be reused. This provides you
+with several advantages:
+
+1. **It decouples the use case from business logic.**
+   Open sourcing means generalizing your functionality, which means
+   separating your business-specific logic from logic that could be
+   generalized and reused in future applications.
+2. **It avoids needlessly reinventing the wheel.** One of the first
+   things to do after decomposing your problem is to see if there are
+   any existing open source solutions that already solve what you are
+   trying to do. If something exists, then perhaps you can use their
+   solution instead. This saves dev time and allows your team to focus
+   on the unique and new problems rather than reinventing the wheel.
+3. **Even when not open sourced, the code is now easily reusable.** I
+   find that I'm often reusing libraries I've written in the past more
+   often that recreating those libraries; in fact, oftentimes reuse
+   motivates incremental improvements that ultimately lead to
+   incredibly clean osftware development processes.
 
 For example, let's talk about the pipeline used to deliver Simon's
 data. In our "having ownership" approach, the engineers decided to
@@ -205,7 +208,7 @@ we can then see if there are any comptetitors to this process:
    can then be easily ported to any database without needing to
    hard-code schema information, and it also provides us an easy mechanism of recovering data when needed.
 2. [Apache
-   Nifi](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-parquet-nar/1.4.0/org.apache.nifi.processors.parquet.PutParquet/index.html)
+   NiFi](https://nifi.apache.org/docs/nifi-docs/components/org.apache.nifi/nifi-parquet-nar/1.4.0/org.apache.nifi.processors.parquet.PutParquet/index.html)
    has a similar `PutParquet` method for data processing.
 
 If we deem that no existing open source solution meets our needs, then
@@ -231,7 +234,7 @@ solve necessary problems. When we're writing smaller batches of
 functional code, we're able to step back and re-evaluate priorities
 during the development process.
 
-## It's not that easy
+## Enabling ownership takes time to learn
 
 Even with all of this, I can't guarantee that maintaining software in
 the future will always be easy and clean. This article compiles a
@@ -240,11 +243,18 @@ refining this process. In fact, at this very moment one of my
 coworkers is lambasting me for some terrible design decisions I made
 on a project years ago that will be difficult to resolve.
 
-Nonetheless, this approach has also created some great
-successes for me. I've written libraries and tools that are frequently
-used by my team and beyond in my organization, and I've frequently
-reused the libraries I've built. Some of these libraries have [lived
-for years and have finally reached an open-sourced
+Furthermore, there are still scenarios where having ownership can
+still be important. Especially for high-value applications with a
+guaranteed team of developers over a long period of time, with
+customers that cannot always be trusted. I hope this article serves to
+illustrate how dangerous it can be to use this as an excuse to have
+ownership always, though.
+
+From personal experience, this approach to software has created
+several successes for me. I've written libraries and tools that are
+frequently used by my team and beyond in my organization, and I've
+frequently reused the libraries I've built. Some of these libraries
+have [lived for years and have finally reached an open-sourced
 state](https://github.com/chadac/poetry-plugin-pypi-proxy), with a
 massive number of robust tests to ensure that the product stays
 reliable into the future.

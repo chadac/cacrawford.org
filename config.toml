@@ -12,6 +12,9 @@ centerTheme = true
 readingTime = true
 authorDescription = "Software engineer, data engineer, data scientist. My blog talks about cool things I'd like to build."
 
+[params.logo]
+logoText = "@chadac"
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -40,17 +43,7 @@ url = "/resume/"
 name = "Résumé"
 weight = 5
 
-[[menu.icon]]
-url = "mailto:chad@cacrawford.org"
-name = "envelope-o"
-weight = 1
-
-[[menu.icon]]
-url = "https://github.com/chadac/"
-name = "github"
-weight = 2
-
-[[menu.icon]]
-url = "https://bitbucket.org/chadac/"
-name = "bitbucket"
-weight = 3
+[[menu.main]]
+url = "https://github.com/chadac"
+name = "GitHub"
+weight = 6

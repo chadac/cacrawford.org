@@ -251,6 +251,13 @@ I decided on the Advantage2 as, while it was an awkward configuration,
 it inluded more buttons in the thumb position which I knew would help
 solve my biggest problem.
 
+When I started on the keyboard, I was so turned around that I could
+barely type 30 words per minute. It took about 2 months to relearn how
+to type altogether, which included many sessions of practicing on
+[typeracer.com](https://typeracer.com) and
+[keybr](https://keybr.com). Fortunately I've mostly recovered at this
+point to about 80-90 WPM.
+
 # 2022
 
 ## April - Moving yet again! - Fort Lauderdale, FL

@@ -8,6 +8,7 @@ paginate = 5
 contentTypeName = "posts"
 themeColor = "blue"
 author = "Chad Crawford"
+favicon = "favicon.ico"
 centerTheme = true
 readingTime = true
 authorDescription = "Software engineer, data engineer, data scientist. My blog talks about cool things I'd like to build."

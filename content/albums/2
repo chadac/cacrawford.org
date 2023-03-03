@@ -1,0 +1,152 @@
+---
+title: "My Workstation over the Years"
+---
+
+Apparently over the years I've gotten into heavily customizing my
+workstation, and it pretty much dominates the photos 
+
+# 2014
+
+## September - The University of Tulsa - Tulsa, OK
+
+<img src="/photos/workstation/2014.jpg" style="border: 3px solid #EEE;" />
+
+I'm pretty sure I was taking a picture of the Peanuts photo above my
+desk. But you can at least still see my workstation setup: two
+monitors, a bad keyboard, a mess on the desk (which is apparently the
+only thing I keep consistent between photos) and Windows.
+
+I was using Linux regularly at this time, but swapped to Windows for
+gaming.
+
+# 2015
+
+## June - The University of Tulsa - Tulsa, OK
+
+<img src="/photos/workstation/2015.png" style="border: 3px solid #EEE;" />
+
+While living in Tulsa, Oklahoma at the University of Tulsa. The
+machine on the right was a desktop that I had been using for years at
+that point (I believe built in 2012) with specs I definitely don't
+have any longer.
+
+The desk came from my Dad from the Container Store. It was a bit
+wobbly but did its job.
+
+At the time I was running on Xubuntu with Xmonad as my Window Manager
+and only about a year later did I finally start recording my system
+config in [some
+dotfiles](https://github.com/chadac/dotfiles/tree/00d02ac521cd86e85043c622dee1ce525098ad63).
+
+# 2018
+
+## March - PhD studies - Tulsa, OK
+
+<img src="/photos/workstation/2018-1.png" style="border: 3px solid #EEE;" />
+
+Moved into my friend's house. It's the same machine but for some
+stupid reason I replaced all of the fans with cheaper stuff that had
+annoying lights. Added a new monitor, 144hx and 1440p.
+
+By 2018 I was running on Arch Linux and using i3 as my WM.
+
+## November - Still a postgrad - Tulsa, OK
+
+<img src="/photos/workstation/2018-2.png" style="border: 3px solid #EEE;" />
+
+Upgraded the speakers to bookshelf speakers, and since they didn't fit
+on my tiny desk I had to raise them with some books. I moved out of
+this place around February 2019.
+
+# 2019
+
+## April - Working at Exxon - The Woodlands, TX
+
+<div style="display: flex; flex-direction: row;">
+<img src="/photos/workstation/2019-1.jpg" style="border: 3px solid #EEE; display: inline; float: left; margin: 0 10px 0 0;" height="400px"  />
+
+A few months after I started work at Exxon. I got a nice L-shaped
+standing desk, and it ended up being free as it came scratched Wayfair
+didn't want to pay the return costs I guess. You can barely tell here
+but this is three monitors.
+</div>
+
+## July - Working at Exxon - The Woodlands, TX
+
+<div style="display: flex; flex-direction: row;">
+
+A few months later, I added a rug. Looks quite a bit nicer I
+think. Eventually I got a NAS (pictured bedlow) which eventually
+turned into a whole setup.
+
+<img src="/photos/workstation/2019-2.jpg" style="border: 3px solid #EEE; display: inline; float: right; margin: 0 0 0 10px; height: 400px;" />
+
+</div>
+
+<img src="/photos/workstation/2019-nas.jpg" style="border: 3px solid #EEE; margin: 10px 0 0 0;" />
+
+## November - The mess grows... - The Woodlands, TX
+
+Got yet another desktop for some stuff to run continuously, sitting on
+top of my NAS. It was at this point that I realized I probably should
+just buy a rack to store everything on top of.
+
+<img src="/photos/workstation/2019-mess.jpg" style="border: 3px solid #EEE; margin: 10px 0 0 0;" />
+
+# 2020
+
+## January - The server rack - The Woodlands, TX
+
+<div style="display: flex; flex-direction: row; width: 100%;">
+
+Put a server rack in my closet with an insanely loud switch that I
+still use to this day. I got something ridiculous like 30U because I
+was planning to add more to this stuff over time. Also added some HPE
+nodes because I wanted something dedicated to run my virtual machines
+that wasn't also a NAS.
+
+<img src="/photos/workstation/2020-the-rack.jpg" style="border: 3px solid #EEE; display: inline; float: left; margin: 0 0 0 10px; height: 400px;" />
+
+</div>
+
+## March - Cross country move! - Mercer Island, WA
+
+<div style="display: flex; flex-direction: row;">
+
+In March, I moved from Houston to the Seattle area in Washington to
+work for Amazon. Funny enough, the week I started was also the week
+everything shut down due to COVID. I never actually went in physically
+to work for a year, although I think the move was still worth it. The
+house was located on the border of Mercer Island, with a magnificent
+view of Lake Washington and a close view of downtown. Perfect place to
+work when I'm stuck at home all day. Although it took over a month to
+unpack all of those boxes...
+
+<img src="/photos/workstation/2020-the-new-view.jpg" style="display: inline; float: right; margin-bottom: 10px; align: center; border: 3px solid #EEE; margin-top: 10px; height: 300px;" />
+
+</div>
+
+<div style="display: flex; flex-direction: row;">
+<img src="/photos/workstation/2020-the-new-place.jpg" style="border: 3px solid #EEE; width: 50%;" />
+<img src="/photos/workstation/2020-the-move.jpg" style="border: 3px solid #EEE; width: 50%; border-left: 0;"  />
+</div>
+
+## March - The desk is set up! - Mercer Island, WA
+
+<div style="display: flex; flex-direction: row; width: 100%;">
+<img src="/photos/workstation/2020-a-better-desk.jpg" style="margin-right: 10px; display: inline; border: 3px solid #EEE; width: 100%;" />
+This was trimmed down to something more acceptable. Wire
+management still needed some work, but fortunately...
+</div>
+
+<div style="display: flex; flex-direction: row;">
+...the massive server behind it was a convenient place to hide those wires.
+Effective wire hiding not pictured here.
+<img src="/photos/workstation/2020-and-the-server.jpg" style="display: inline; border: 3px solid #EEE; width: 50%; float: left;" />
+</div>
+
+Nonetheless, there was something missing...
+
+<img src="/photos/workstation/2020-pure-nonsense.jpg" style="border: 3px solid #EEE; width: 50%;" />
+
+NOW I've gone off the deep end.

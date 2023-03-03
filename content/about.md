@@ -4,6 +4,10 @@ description: ""
 date: 2017-09-05T12:42:22-05:00
 ---
 
+Fun links:
+
+* [My Workstation over the years](/albums/workstation)
+
 Hi! I'm currently a Software Engineer at Amazon, previously a Data
 Engineer, and before that a Data Scientist at ExxonMobil, and before
 that, a Master's student/researcher at the Univerity of Tulsa advised

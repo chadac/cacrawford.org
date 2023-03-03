@@ -3,8 +3,8 @@ title: "My Workstation over the Years"
 ---
 
 Apparently over the years I've gotten into heavily customizing my
-workstation, and it pretty much all the photos I've taken over the
-past decade or so. Since apparently I implicitly love my computers so
+workstation, and it pretty much dominates all the photos I've taken
+over the past decade or so. Since apparently I love my computers so
 much, I thought I'd dedicate a page to them.
 
 # 2014

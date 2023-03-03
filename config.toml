@@ -45,6 +45,11 @@ name = "Résumé"
 weight = 5
 
 [[menu.main]]
+url = "/albums/workstation/"
+name = "My Workstation"
+weight = 6
+
+[[menu.main]]
 url = "https://github.com/chadac"
 name = "GitHub"
 weight = 6

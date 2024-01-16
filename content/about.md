@@ -8,10 +8,10 @@ Fun links:
 
 * [My Workstation over the years](/albums/workstation)
 
-Hi! I'm currently a Software Engineer at Amazon, previously a Data
-Engineer, and before that a Data Scientist at ExxonMobil, and before
-that, a Master's student/researcher at the Univerity of Tulsa advised
-by [Dr. Sandip Sen](http://www.ens.utulsa.edu/~sandip/).
+Hi! I'm a software developer, previously a researcher at [Dr. Sandip
+Sen](http://www.ens.utulsa.edu/~sandip/)'s lab. I've built frontends,
+backends, devtools, libraries and as a scientist. My interests span
+pretty much anything computing and math-related.
 
 I'm primarily interested in enhancing the developer experience, so
 you'll probably see a lot of my writings and packages focused on that
